@@ -34,3 +34,22 @@ export const homeObjTwo = {
 	primary: false,
 	darkText: true,
 };
+
+export const homeObjThree = {
+	id: "blog",
+	lightBg: false,
+	lightText: true,
+	lightTextDesc: true,
+	topLine: "14-06-2021",
+	headline: "Today's Thoughts",
+	description:
+		"Today I made a lot of progress developing my blog. Added it to GitHub and trying to finish it as soon as possible.",
+	link: "https://github.com/VicVerevita",
+	buttonLabel: "About Me",
+	imgStart: true,
+	img: require("../images/blog.svg").default,
+	alt: "Blog",
+	dark: true,
+	primary: true,
+	darkText: false,
+};
